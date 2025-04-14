@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+
+# custom
+/peak_detection/data/synthetic_results/*

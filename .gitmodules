@@ -1,0 +1,3 @@
+[submodule "diabeat"]
+	path = diabeat
+	url = git@github.com:ad-aspera/diabeat.git

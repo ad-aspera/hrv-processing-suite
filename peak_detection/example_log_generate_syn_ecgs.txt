@@ -1,0 +1,155 @@
+Will generate ECG signals with SNR levels: [20, 15, 10, 7, 5, 3, 2, 1, 0.8, 0.5, 0.1]
+
+Generating ECG with different SNR levels:   0%|          | 0/11 [00:00<?, ?it/s]
+Generating ECG with different SNR levels:   9%|▉         | 1/11 [00:06<01:05,  6.54s/it]
+Generating ECG with different SNR levels:  18%|█▊        | 2/11 [00:13<00:59,  6.60s/it]
+Generating ECG with different SNR levels:  27%|██▋       | 3/11 [00:19<00:52,  6.55s/it]
+Generating ECG with different SNR levels:  36%|███▋      | 4/11 [00:26<00:46,  6.59s/it]
+Generating ECG with different SNR levels:  45%|████▌     | 5/11 [00:32<00:39,  6.55s/it]
+Generating ECG with different SNR levels:  55%|█████▍    | 6/11 [00:39<00:32,  6.57s/it]
+Generating ECG with different SNR levels:  64%|██████▎   | 7/11 [00:45<00:26,  6.54s/it]
+Generating ECG with different SNR levels:  73%|███████▎  | 8/11 [00:52<00:19,  6.54s/it]
+Generating ECG with different SNR levels:  82%|████████▏ | 9/11 [00:58<00:13,  6.51s/it]
+Generating ECG with different SNR levels:  91%|█████████ | 10/11 [01:05<00:06,  6.57s/it]
+Generating ECG with different SNR levels: 100%|██████████| 11/11 [01:12<00:00,  6.55s/it]
+Generating ECG with different SNR levels: 100%|██████████| 11/11 [01:12<00:00,  6.55s/it]
+SNR=20, saving to synthetic_ecg_snr_20.csv
+SNR=15, saving to synthetic_ecg_snr_15.csv
+SNR=10, saving to synthetic_ecg_snr_10.csv
+SNR=7, saving to synthetic_ecg_snr_7.csv
+SNR=5, saving to synthetic_ecg_snr_5.csv
+SNR=3, saving to synthetic_ecg_snr_3.csv
+SNR=2, saving to synthetic_ecg_snr_2.csv
+SNR=1, saving to synthetic_ecg_snr_1.csv
+SNR=0.8, saving to synthetic_ecg_snr_0.8.csv
+SNR=0.5, saving to synthetic_ecg_snr_0.5.csv
+SNR=0.1, saving to synthetic_ecg_snr_0.1.csv
+Generated ECG signals with SNR levels: [20, 15, 10, 7, 5, 3, 2, 1, 0.8, 0.5, 0.1]
+True R-peaks saved to /Users/harshagrawal/Downloads/code/hrv-processing-suite/peak_detection/data/synthetic_results/true_r_peaks.npy
+Found special SNR file: synthetic_ecg_snr_0.1.csv
+Found special SNR file: synthetic_ecg_snr_0.5.csv
+Found special SNR file: synthetic_ecg_snr_0.8.csv
+Processing the following SNR levels: [20, 15, 10, 7, 5, 3, 2, 1, 0.8, 0.5, 0.1]
+Evaluating peak detection methods on clean ECG...
+  Testing method: nabian2018
+  Testing method: pantompkins1985
+  Testing method: hamilton2002
+  Testing method: elgendi2010
+  Testing method: engzeemod2012
+  Testing method: kalidas2017
+  Testing method: martinez2004
+  Testing method: rodrigues2021
+  Testing method: manikandan2012
+
+Evaluating peak detection methods on noisy ECG signals...
+Processing SNR = 20
+  Testing method: nabian2018 at SNR=20
+  Testing method: pantompkins1985 at SNR=20
+  Testing method: hamilton2002 at SNR=20
+  Testing method: elgendi2010 at SNR=20
+  Testing method: engzeemod2012 at SNR=20
+  Testing method: kalidas2017 at SNR=20
+  Testing method: martinez2004 at SNR=20
+  Testing method: rodrigues2021 at SNR=20
+  Testing method: manikandan2012 at SNR=20
+Processing SNR = 15
+  Testing method: nabian2018 at SNR=15
+  Testing method: pantompkins1985 at SNR=15
+  Testing method: hamilton2002 at SNR=15
+  Testing method: elgendi2010 at SNR=15
+  Testing method: engzeemod2012 at SNR=15
+  Testing method: kalidas2017 at SNR=15
+  Testing method: martinez2004 at SNR=15
+  Testing method: rodrigues2021 at SNR=15
+  Testing method: manikandan2012 at SNR=15
+Processing SNR = 10
+  Testing method: nabian2018 at SNR=10
+  Testing method: pantompkins1985 at SNR=10
+  Testing method: hamilton2002 at SNR=10
+  Testing method: elgendi2010 at SNR=10
+  Testing method: engzeemod2012 at SNR=10
+  Testing method: kalidas2017 at SNR=10
+  Testing method: martinez2004 at SNR=10
+  Testing method: rodrigues2021 at SNR=10
+  Testing method: manikandan2012 at SNR=10
+Processing SNR = 7
+  Testing method: nabian2018 at SNR=7
+  Testing method: pantompkins1985 at SNR=7
+  Testing method: hamilton2002 at SNR=7
+  Testing method: elgendi2010 at SNR=7
+  Testing method: engzeemod2012 at SNR=7
+  Testing method: kalidas2017 at SNR=7
+  Testing method: martinez2004 at SNR=7
+  Testing method: rodrigues2021 at SNR=7
+  Testing method: manikandan2012 at SNR=7
+Processing SNR = 5
+  Testing method: nabian2018 at SNR=5
+  Testing method: pantompkins1985 at SNR=5
+  Testing method: hamilton2002 at SNR=5
+  Testing method: elgendi2010 at SNR=5
+  Testing method: engzeemod2012 at SNR=5
+  Testing method: kalidas2017 at SNR=5
+  Testing method: martinez2004 at SNR=5
+  Testing method: rodrigues2021 at SNR=5
+  Testing method: manikandan2012 at SNR=5
+Processing SNR = 3
+  Testing method: nabian2018 at SNR=3
+  Testing method: pantompkins1985 at SNR=3
+  Testing method: hamilton2002 at SNR=3
+  Testing method: elgendi2010 at SNR=3
+  Testing method: engzeemod2012 at SNR=3
+  Testing method: kalidas2017 at SNR=3
+  Testing method: martinez2004 at SNR=3
+  Testing method: rodrigues2021 at SNR=3
+  Testing method: manikandan2012 at SNR=3
+Processing SNR = 2
+  Testing method: nabian2018 at SNR=2
+  Testing method: pantompkins1985 at SNR=2
+  Testing method: hamilton2002 at SNR=2
+  Testing method: elgendi2010 at SNR=2
+  Testing method: engzeemod2012 at SNR=2
+  Testing method: kalidas2017 at SNR=2
+  Testing method: martinez2004 at SNR=2
+  Testing method: rodrigues2021 at SNR=2
+  Testing method: manikandan2012 at SNR=2
+Processing SNR = 1
+  Testing method: nabian2018 at SNR=1
+  Testing method: pantompkins1985 at SNR=1
+  Testing method: hamilton2002 at SNR=1
+  Testing method: elgendi2010 at SNR=1
+  Testing method: engzeemod2012 at SNR=1
+  Testing method: kalidas2017 at SNR=1
+  Testing method: martinez2004 at SNR=1
+  Testing method: rodrigues2021 at SNR=1
+  Testing method: manikandan2012 at SNR=1
+Processing SNR = 0.8
+  Testing method: nabian2018 at SNR=0.8
+  Testing method: pantompkins1985 at SNR=0.8
+  Testing method: hamilton2002 at SNR=0.8
+  Testing method: elgendi2010 at SNR=0.8
+  Testing method: engzeemod2012 at SNR=0.8
+  Testing method: kalidas2017 at SNR=0.8
+  Testing method: martinez2004 at SNR=0.8
+  Testing method: rodrigues2021 at SNR=0.8
+  Testing method: manikandan2012 at SNR=0.8
+Processing SNR = 0.5
+  Testing method: nabian2018 at SNR=0.5
+  Testing method: pantompkins1985 at SNR=0.5
+  Testing method: hamilton2002 at SNR=0.5
+  Testing method: elgendi2010 at SNR=0.5
+  Testing method: engzeemod2012 at SNR=0.5
+  Testing method: kalidas2017 at SNR=0.5
+  Testing method: martinez2004 at SNR=0.5
+  Testing method: rodrigues2021 at SNR=0.5
+  Testing method: manikandan2012 at SNR=0.5
+Processing SNR = 0.1
+  Testing method: nabian2018 at SNR=0.1
+  Testing method: pantompkins1985 at SNR=0.1
+  Testing method: hamilton2002 at SNR=0.1
+  Testing method: elgendi2010 at SNR=0.1
+  Testing method: engzeemod2012 at SNR=0.1
+  Testing method: kalidas2017 at SNR=0.1
+  Testing method: martinez2004 at SNR=0.1
+  Testing method: rodrigues2021 at SNR=0.1
+  Testing method: manikandan2012 at SNR=0.1
+Peak detection evaluation complete. Results saved as pickle at: /Users/harshagrawal/Downloads/code/hrv-processing-suite/peak_detection/data/peak_detection_results.pkl
