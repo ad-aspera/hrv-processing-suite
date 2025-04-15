@@ -1,17 +1,13 @@
 # HRV Processing Suite
 
-A comprehensive suite for processing and analyzing Heart Rate Variability (HRV) data, built on top of the Diabeat framework.
-
-## Overview
-
-This repository contains tools and utilities for processing HRV data, leveraging the capabilities of the [Diabeat](https://github.com/ad-aspera/diabeat) framework. The suite provides a robust foundation for HRV analysis and processing.
+This is the master repository providing all necessary code for the paper titled "Detection of Diabetic Peripheral Neuropathy through Heart Rate Variability"
 
 ## Project Structure
-
+The repository is organized into three main folders
 ```
 .
-├── diabeat/          # Diabeat framework submodule
-└── [other project files]
+├── diabeat/          # Deep Learning Model for HRV Analysis
+├── peak_detection/   # Peak Detection and Synthetic Data Generation
 ```
 
 ## Setup
@@ -28,17 +24,15 @@ This repository contains tools and utilities for processing HRV data, leveraging
 
 ## Dependencies
 
-- Python 3.8+
-- [Other dependencies will be listed here]
+Createa a conda environment using the `environment.yaml` file by running the following command:
+```bash
+conda env create -f environment.yaml
+```
+This should install all the necessary dependencies.
 
 ## Usage
 
-[Usage instructions will be added as the project develops]
+Please refer to the README files in each subfolder for usage instructions.
 
-## Contributing
-
-[Contribution guidelines will be added]
-
-## License
-
-[License information will be added] 
+- [diabeat/README.md](diabeat/README.md) - Instructions for training/running the deep learning model.
+- [peak_detection/README.md](peak_detection/README.md) - Instructions for peak detection and synthetic data generation methods.
