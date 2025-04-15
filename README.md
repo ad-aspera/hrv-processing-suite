@@ -7,20 +7,14 @@ The repository is organized into three main folders
 ```
 .
 ├── diabeat/          # Deep Learning Model for HRV Analysis
-├── peak_detection/   # Peak Detection and Synthetic Data Generation
+└── peak_detection/   # Peak Detection and Synthetic Data Generation
 ```
 
 ## Setup
-
-1. Clone the repository:
-   ```bash
-   git clone [your-repository-url]
-   ```
-
-2. Initialize and update the submodules:
-   ```bash
-   git submodule update --init --recursive
-   ```
+Clone and setup the repository:
+```bash
+git clone https://github.com/ad-aspera/hrv_suite.git && git submodule update --init --recursive
+```
 
 ## Dependencies
 
