@@ -1,3 +1,6 @@
 [submodule "diabeat"]
 	path = diabeat
 	url = git@github.com:ad-aspera/diabeat.git
+[submodule "hrv_eda"]
+	path = hrv_eda
+	url = git@github.com:ad-aspera/hrv_eda.git

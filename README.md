@@ -7,7 +7,8 @@ The repository is organized into three main folders
 ```
 .
 ├── diabeat/          # Deep Learning Model for HRV Analysis
-└── peak_detection/   # Peak Detection and Synthetic Data Generation
+├── peak_detection/   # Peak Detection and Synthetic Data Generation
+└── hrv_eda/         # HRV EDA and Analysis
 ```
 
 ## Setup
@@ -30,3 +31,4 @@ Please refer to the README files in each subfolder for usage instructions.
 
 - [diabeat/README.md](diabeat/README.md) - Instructions for training/running the deep learning model.
 - [peak_detection/README.md](peak_detection/README.md) - Instructions for peak detection and synthetic data generation methods.
+- [hrv_eda/README.md](hrv_eda/README.md) - Instructions for HRV EDA and Analysis.
