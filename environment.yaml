@@ -23,3 +23,9 @@ dependencies:
   - pip:
     - neurokit2>=0.2.0
     - PyWavelets
+    - xlwings
+    - nbformat>=4.2.0
+    - plotly
+    - metrics
+    - table
+    - scikit-learn
